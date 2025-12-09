@@ -1,4 +1,4 @@
-
+Live Demo: https://multi-ai-psi.vercel.app/
 ```md
 # 🚀 MultiAI – All-in-One AI Platform  
 
@@ -20,6 +20,10 @@ It includes:
 
 ```
 
+## 🔗 Project Showcase on LinkedIn  
+
+Check out the official project showcase and demo post on LinkedIn:  
+👉 https://www.linkedin.com/posts/shubham-sharma395_reactjs-springboot-fullstackdeveloper-activity-7404079190460919808-3sWI
 
 
 ![MultiAI Preview 1](https://raw.githubusercontent.com/developershubham01/MultiAI/main/mutiaiimage/1.png)
