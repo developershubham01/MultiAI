@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Mobile Responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- Theme & Branding -->
+    <meta name="theme-color" content="#0d0d0d" />
+    <meta name="application-name" content="MultiAI" />
+    <meta name="apple-mobile-web-app-title" content="MultiAI" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- SEO Optimization -->
+    <meta name="description" content="MultiAI is a powerful multi-AI chat platform that brings multiple AI models into one smart interface." />
+    <meta name="keywords" content="MultiAI, Multi AI Chat, AI Tools, Chatbot, Image AI, Code AI, React AI App" />
+    <meta name="author" content="Shubham Sharma" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Social Media Preview -->
+    <meta property="og:title" content="MultiAI — Multi-AI Chat Interface" />
+    <meta property="og:description" content="Chat with multiple AI models in one powerful interface." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="%PUBLIC_URL%/logo1.png" />
+    <meta property="og:url" content="%PUBLIC_URL%" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MultiAI" />
+    <meta name="twitter:description" content="Multiple AI minds. One smart chat." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logo1.png" />
+
+    <!-- Title Logo / Browser Tab Icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/logo1.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/logo1.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/logo1.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Security -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+
+    <title>MultiAI — Multi-AI Chat Interface</title>
+  </head>
+
+  <body>
+    <noscript>
+      <strong>MultiAI requires JavaScript to run properly. Please enable it in your browser.</strong>
+    </noscript>
+
+    <!-- React Root -->
+    <div id="root"></div>
+
+    <!-- Preloader -->
+    <div
+      id="preloader"
+      style="
+        position: fixed;
+        inset: 0;
+        background: #0d0d0d;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Inter, sans-serif;
+        z-index: 9999;
+        letter-spacing: 1px;
+        gap: 12px;
+      "
+    >
+      <img
+        src="%PUBLIC_URL%/logo1.png"
+        alt="MultiAI Logo"
+        width="80"
+        height="80"
+        style="border-radius: 16px"
+      />
+      <div>Launching MultiAI...</div>
+      <small style="opacity: 0.6">Multi-AI Chat Interface</small>
+    </div>
+
+    <script>
+      window.addEventListener("load", () => {
+        const loader = document.getElementById("preloader");
+        if (loader) loader.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
