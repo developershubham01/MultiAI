@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "id": 1765262811363,
+      "role": "user",
+      "content": "hii ",
+      "timestamp": "2025-12-09T06:46:51.363Z",
+      "provider": "groq"
+    },
+    {
+      "id": 1765262811906,
+      "role": "assistant",
+      "content": "Hello. Is there something I can help you with, or would you like to chat?",
+      "timestamp": "2025-12-09T06:46:51.895+00:00",
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant",
+      "usage": {
+        "promptTokens": 38,
+        "completionTokens": 19,
+        "totalTokens": 57
+      }
+    }
+  ],
+  "exportedAt": "2025-12-09T06:46:58.266Z"
+}
